@@ -360,6 +360,18 @@
               <referencedTypeMoniker Id="e8ea34d2-0108-4883-bac7-29bc34ac5f21" LastKnownName="String" />
             </type_NamedElement>
           </property>
+          <property Id="ae1a6009-883e-4571-b478-e8ab61760d4d" name="email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1af73e09-4862-4ceb-b908-f223da9520aa" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e8ea34d2-0108-4883-bac7-29bc34ac5f21" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="0262edbd-e79b-440c-a649-1711bfca1bb5" name="password" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="251f0cd9-4353-453c-af13-92b6b137a3b7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e8ea34d2-0108-4883-bac7-29bc34ac5f21" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
