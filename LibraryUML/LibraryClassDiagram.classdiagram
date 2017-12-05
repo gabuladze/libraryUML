@@ -934,6 +934,9 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="82d288d7-fa9d-4ee4-b0ea-d32608dd7f6d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="99eee844-8c43-4688-9bb3-1c57ccf4d469" LastKnownName="String" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
@@ -1576,6 +1579,11 @@
     </packageHasNamedElement>
     <packageHasNamedElement>
       <referencedType Id="2d3863bd-f095-4ef2-9c77-4ecb084fd59e" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="99eee844-8c43-4688-9bb3-1c57ccf4d469" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
         <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
       </referencedType>
     </packageHasNamedElement>
