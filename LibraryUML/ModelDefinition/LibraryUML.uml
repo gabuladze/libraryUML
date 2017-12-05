@@ -939,6 +939,12 @@
                 </propertyInstances>
               </stereotypeInstance>
             </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="LibraryUML.uml" />
+            </type_NamedElement>
           </property>
         </ownedAttributesInternal>
       </class>
