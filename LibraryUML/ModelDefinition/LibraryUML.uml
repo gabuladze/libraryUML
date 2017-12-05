@@ -162,6 +162,47 @@
             </propertyInstances>
           </stereotypeInstance>
         </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="b3f2bcfc-cff9-455e-b6fa-e31897fb07b3"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Lendable"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="35a017cb-b6ee-488d-87a1-484b1762c094"
+              LastKnownName="Lendable"
+              LastKnownLocation="LibraryUML.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4a9f1b65-9afc-4643-881c-d7448a69ea85"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="278a5fd5-dd58-4ff2-9e23-7072bc29ee17"
+                  name="Lendable"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="c15431b6-3b26-49b8-90df-1f1e9df5b97f"
@@ -2134,6 +2175,24 @@
               <classMoniker
                 Id="f91dd75c-fb6c-4361-b632-7f874387a8b9"
                 LastKnownName="Author"
+                LastKnownLocation="LibraryUML.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bf2fbb80-78e4-42cf-aa79-50123067c754"
+            name="user"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="808ff80e-3862-4b5d-b243-411b80fdbeda"
+                LastKnownName="User"
                 LastKnownLocation="LibraryUML.uml" />
             </type_NamedElement>
           </property>
